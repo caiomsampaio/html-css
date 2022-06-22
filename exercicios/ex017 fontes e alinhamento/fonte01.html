@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas absolutas
+            cm, mm, in, (px), pt, pc
+            16px é o tamanho padrão
+
+            Medidas Relativas
+            (em), ex, rem, vw, vh, %
+            () mais utilizado e recomendado pela W3C
+            16px geralmente = 1em
+            */
+
+            font-size: 16px;
+            font-weight: bolder; /* Negrito */
+            font-style: italic; /* Itálico */
+            /* lighter normal bold bolder */
+            text-decoration: underline; /* Sublinhado */
+        }
+
+        h1 {
+            
+            /* shorthand font 
+
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aspernatur, exercitationem esse a culpa voluptatem omnis enim itaque! Reiciendis nihil commodi nostrum perferendis sunt ab modi atque fugiat quos Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex assumenda, animi harum, officiis quas corporis, illo rem officia temporibus natus nam quisquam. Voluptates ullam eos, provident nihil minus non veniam.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum repudiandae nulla fugiat, deleniti iusto laborum molestiae, libero dolore error impedit quos maiores excepturi officiis porro doloribus omnis non perspiciatis blanditiis!</p>
+</body>
+</html>

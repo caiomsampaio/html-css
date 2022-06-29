@@ -19,12 +19,12 @@
 html, body {
     min-height: 100hv;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
     background-color: black;
     color: white;
-    padding-top: 30px;
     text-align: center;
 }
 
@@ -34,9 +34,10 @@ header > h1 {
     text-align: center;
     font-family: 'Passion One';
     font-variant: small-caps;
-    padding-top: 20px;
+    padding-top: 50px;
     font-size: 10vw;
     font-weight: bold;
+    font-family: var(--fonte2);
 }
 
 header > p {
@@ -60,6 +61,8 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -73,7 +76,8 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.253);
 }
 
